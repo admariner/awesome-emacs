@@ -109,6 +109,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
   -  [[#ai][AI]]
     - [[#code-completion][Code Completion]]
     - [[#chatgpt][ChatGPT]]
+  - [[#session-management][Session Management]]
   - [[#keys-cheat-sheet][Keys Cheat Sheet]]
   - [[#note][Note]]
     - [[#org-mode][Org-mode]]
@@ -234,6 +235,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/dholm/tabbar][tabbar]] - Display a tab bar in the header line.
    - [[https://github.com/manateelazycat/awesome-tab][awesome-tab]] - Out of box extension to use tab in Emacs. grouping buffers by projects and many awesome features.
    - [[https://github.com/ema2159/centaur-tabs][centaur-tabs]] - Aesthetic, functional tabs plugin with icons and styles, Helm, Ivy and Projectile integration, supported by many popular themes.
+   - [[https://github.com/jamescherti/vim-tab-bar.el][vim-tab-bar]] - Makes Emacs' built-in tab-bar look like Vim's tabbed browsing interface.
 
 
 *** Navigation
@@ -408,6 +410,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Matching.html][show-paren-mode]] - =[built-in]= a minor mode to visualize parenthesis matching.
    - [[https://github.com/Fanael/rainbow-delimiters][rainbow-delimiters]] - Highlights parentheses, brackets, and braces according to their depth.
    - [[https://github.com/tsdh/highlight-parentheses.el][highlight-parentheses.el]] - highlight surrounding parentheses.
+   - [[https://github.com/alphapapa/prism.el][prism]] - highlight code based on depth
 
 *** Kill-ring / Clipboard
 
@@ -507,6 +510,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
     - [[https://www.emacswiki.org/emacs/HideShow][hideshow]] - =[built-in]= Folding regions by balanced-expression code.
       - [[https://www.emacswiki.org/emacs/download/hideshowvis.el][hideshowvis]] - Based on =hideshow=, just display its nodes on fringe.
     - [[https://github.com/gregsexton/origami.el][Origami.el]] - Feature rich text folding minor mode.
+    - [[https://github.com/jamescherti/outline-indent.el][outline-indent]] - Fold text based on indentation levels.
 
 *** Compiling
 
@@ -520,6 +524,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
    - [[https://github.com/rejeep/prodigy.el][Prodigy]] - Manage external services from within Emacs.
    - [[https://github.com/sabof/project-explorer][Project-Explorer]] - a tree project explorer (integrates with projectile).
    - [[https://github.com/redguardtoo/find-file-in-project][Find-file-in-project]] - Quick access to project files in Emacs.
+   - [[https://github.com/salorak/whaler.el][Whaler]] - Minimalistic and highly customizable project manager.
 
 ** File Manager
 
@@ -600,7 +605,7 @@ Above all, enjoy using Emacs. The community, more than anything, makes Emacs a g
 
 **** Racket
 
-     - [[https://github.com/greghendershott/racket-mode][racket-mode]] - major modes for Racket: Edit and REPL.
+     - [[https://github.com/greghendershott/racket-mode][racket-mode]] - Major modes for Racket: Edit and REPL.
 
 **** Clojure
 
@@ -846,6 +851,11 @@ External Guides:
     - [[https://github.com/rksm/org-ai][org-ai]] - Minor mode for Emacs org-mode that provides access to generative AI models.
     - [[https://github.com/xenodium/chatgpt-shell][chatgpt-shell]] - ChatGPT and DALL-E Emacs shells + Org Babel.
     - [[https://github.com/karthink/gptel][GPTel]] - A simple ChatGPT client for Emacs.
+
+** Session management
+
+    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Saving-Emacs-Sessions.html#Saving-Emacs-Sessions][desktop]] - =[built-in]= Save and restore the state of your Emacs environment.
+    - [[https://github.com/jamescherti/easysession.el][easysession]] - A lightweight session manager that persists and restores Emacs frames, the tab-bar, and buffers (file editing buffers, indirect buffers, Dired buffers, etc.).
 
 ** Keys Cheat Sheet
 
@@ -1239,6 +1249,8 @@ For additional git-related emacs packages to use or to get inspiration from, tak
    - [[https://github.com/senny/cabbage][Cabbage]] - Get the maximum out of emacs http://senny.github.io/cabbage/.
    - [[https://github.com/daviwil/emacs-from-scratch][Emacs From Scratch]] - Custom Emacs configuration that you can use as inspiration when building your own.
    - [[https://github.com/technomancy/emacs-starter-kit][Emacs Starter Kit]] - A prose guide to various packages and settings which can greatly improve the Emacs experience.
+   - [[https://github.com/jamescherti/minimal-emacs.d][minimal-emacs.d]] - A customizable Emacs base that offers improved default settings and optimized startup, intended to serve as a solid foundation for a vanilla Emacs configuration.
+   - [[https://codeberg.org/ashton314/emacs-bedrock][Emacs Bedrock]] - A minimal, no-magic, bare-bones starter kit focusing on tweaking stock Emacs 29. Minimal 3rd-party dependencies.
 
 #+BEGIN_QUOTE
 - In addition, for an excellent selection of personal .emacs.d configurations, take a look at [[https://github.com/caisah/emacs.dz]].
